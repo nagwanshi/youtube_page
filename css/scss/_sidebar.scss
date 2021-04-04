@@ -1,0 +1,14 @@
+.sidebar {
+  width: 30%;
+  height: auto;
+  background-color: #5390d9;
+  padding: 24px 24px 24px 0;
+  // margin-right: auto;
+
+  .side-vid {
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    background-color: bisque;
+  }
+}

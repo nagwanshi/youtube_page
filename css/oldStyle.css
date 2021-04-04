@@ -1,0 +1,147 @@
+/* Import fonts from fonts.css */
+
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: white;
+}
+
+.head-height {
+  height: 40px;
+}
+/* Css variables */
+:root {
+  --primary-color: blue;
+
+  /* font family variables */
+}
+
+@import url("./fonts.css");
+
+/*********************************Main Layout**********************************/
+
+.container {
+  display: flex;
+  /* width: 100%; */
+  height: 100%;
+  padding: 0 16px;
+  /* background-color: #c0fdff; */
+  flex-direction: column;
+}
+
+/********************************* start navigation ***************************/
+header {
+  width: 100%; */
+  /* padding: 0px 16px;
+}
+
+nav {
+  height: 56px;
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+}
+
+/********************************* end navigation ***************************/
+
+/********************************* start main ***************************/
+main {
+  padding: 0 3%;
+  display: flex;
+  /* background-color: #c8e7ff; */
+  height: 100%;
+}
+
+.player {
+  /* width: 948px; */
+  height: auto;
+  /* background-color: #56cfe1; */
+  padding: 24px;
+}
+
+.player .video {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 900px;
+  height: 506px;
+  /* background-color: bisque; */
+}
+
+.player .vid-info {
+  padding: 20px 0px 8px;
+  border-bottom: 1px solid black;
+}
+
+.player .vid-info .info-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.player .vid-info .info-content .top-info {
+  height: 24px;
+  font-size: 18px;
+  /* font-weight: 200; */
+  color: #030303;
+}
+
+.player .vid-info .info-content .bottom-info {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+
+  color: #606060;
+}
+
+.share-panel {
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+}
+
+.icon-size {
+  width: 24px;
+  height: 24px;
+}
+
+.upvote {
+  display: flex;
+  height: 36px;
+  padding: 6px;
+  justify-content: space-between;
+  align-items: center;
+}
+#upvote {
+  width: 36px;
+  height: 36px;
+}
+/******************************* start Sidebar ************************************/
+
+.sidebar {
+  width: 30%;
+  height: auto;
+  background-color: #5390d9;
+  padding: 24px 24px 24px 0;
+}
+
+.sidebar .side-vid {
+  display: flex;
+  border: 1px solid black;
+  height: 100%;
+  background-color: bisque;
+}
+/********************************* end main ***************************/

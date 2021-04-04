@@ -1,0 +1,286 @@
+@import url(./fonts.css);
+.nav, .nav-menu, .nav-search, .nav-search-bar, .nav-search-bar-input, .nav-search-mic, .nav-sign, .nav-sign-btn, .main-player-info-content-bottom, .main-player-info-content-bottom .share-panel, .main-player-info-content-bottom .share-panel .upvote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-sign-apps, .nav-sign-settings {
+  width: 24px;
+  height: 24px;
+}
+
+/********************************* start navigation ***************************/
+header {
+  width: 100%;
+  /* /* padding: 0px 16px; */
+}
+
+.nav {
+  height: 56px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+}
+
+.nav-menu-bars {
+  font-size: 1.4rem;
+  padding: 8px;
+  margin-right: 16px;
+}
+
+.nav-menu-logo {
+  width: 129px;
+  height: 24px;
+  background-color: red;
+}
+
+.nav-search {
+  height: 40px;
+  width: 690px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-search-bar {
+  width: 610px;
+  height: 32px;
+  padding: 0 4px;
+  margin-left: 40px;
+}
+
+.nav-search-bar-input {
+  border: 1px solid black;
+  width: 100%;
+  height: 30px;
+  padding: 0 6px;
+}
+
+.nav-search-bar-input-in {
+  width: 100%;
+  height: 27px;
+  border: none;
+  outline: none;
+}
+
+.nav-search-bar-icon {
+  height: 100%;
+  width: 70px;
+  height: 32px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  border-left: none;
+}
+
+.nav-search-mic {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+
+.nav-sign {
+  width: 201px;
+  height: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-sign-apps {
+  padding: 8px;
+}
+
+.nav-sign-apps-icon {
+  background-color: black;
+}
+
+.nav-sign-settings {
+  padding: 8px;
+}
+
+.nav-sign-settings-icon {
+  background-color: blue;
+}
+
+.nav-sign-btn {
+  padding: 5px 11px;
+  background: white;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
+
+.nav-sign-btn a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: blue;
+  margin-left: 8px;
+}
+
+/********************************* end navigation ***************************/
+.nav, .nav-menu, .nav-search, .nav-search-bar, .nav-search-bar-input, .nav-search-mic, .nav-sign, .nav-sign-btn, .main-player-info-content-bottom, .main-player-info-content-bottom .share-panel, .main-player-info-content-bottom .share-panel .upvote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-player-info-content-bottom .share-panel .upvote {
+  width: 36px;
+  height: 36px;
+}
+
+.main {
+  padding: 0 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding: 24px;
+}
+
+.main-player {
+  height: auto;
+  padding: 24px;
+}
+
+.main-player-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* border: 1px solid black; */
+  width: 900px;
+  height: 506px;
+  /* background-color: bisque; */
+}
+
+.main-player-info {
+  padding: 20px 0px 8px;
+  border-bottom: 1px solid black;
+  height: 65px;
+  padding: 20px 0 8px;
+  background-color: yellow;
+}
+
+.main-player-info-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-player-info-content-top {
+  height: 24px;
+  color: #030303;
+}
+
+.main-player-info-content-top #vid-heading {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.main-player-info-content-bottom {
+  height: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  color: #606060;
+}
+
+.main-player-info-content-bottom .share-panel {
+  font-weight: 600;
+}
+
+.main-player-info-content-bottom .share-panel .upvote {
+  padding: 6px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-player-info-content-bottom .share-panel .upvote #upvote {
+  width: 36px;
+  height: 36px;
+}
+
+.icon-size {
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar {
+  width: 30%;
+  height: auto;
+  background-color: #5390d9;
+  padding: 24px 24px 24px 0;
+}
+
+.sidebar .side-vid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  height: 100%;
+  background-color: bisque;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+button {
+  border-radius: 4px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* width: 100%; */
+  height: 100%;
+  padding: 0 16px;
+  /* background-color: #c0fdff; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
